@@ -1,0 +1,15 @@
+version: "3"
+services:
+  gf-test:
+    container_name: gf-test
+    build:
+      context: ../
+      dockerfile: deploy/Dockerfile
+    image: gf-test:latest
+    ports:
+      - "80:80"
+    networks:
+      - gf-test-net
+
+networks:
+  gf-test-net:

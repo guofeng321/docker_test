@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    image: weixin.vrpower.cn:5000/gf-test:$CI_COMMIT_SHORT_SHA
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+    ports:
+     - "8009:80"

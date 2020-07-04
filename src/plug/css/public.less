@@ -1,0 +1,39 @@
+.masking{
+    z-index: 90;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+    visibility: hidden;
+}
+
+.maskingShow {
+    visibility: visible;
+}
+
+.popup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transition: all .3s;
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    // z-index: 95;
+    visibility: hidden;
+}
+
+.show{
+    visibility: visible;
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+
+
+@Cred: red;
+@Cblack: #0a0814;
+@Cgray: #f3f3f3;
+@Cgreen: #0ac866;
+@Cyellow: #ffc210;
+@Cbggray: #eee;
+@Cblue: #1abc9c;
+@CHeader: #585d6b;

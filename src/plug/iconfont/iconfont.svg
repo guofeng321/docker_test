@@ -1,0 +1,29 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<!--
+2013-9-30: Created.
+-->
+<svg>
+<metadata>
+Created by iconfont
+</metadata>
+<defs>
+
+<font id="iconfont" horiz-adv-x="1024" >
+  <font-face
+    font-family="iconfont"
+    font-weight="500"
+    font-stretch="normal"
+    units-per-em="1024"
+    ascent="896"
+    descent="-128"
+  />
+    <missing-glyph />
+    
+    <glyph glyph-name="shanchu" unicode="&#58923;" d="M512 474.496l274.752 274.752 90.496-90.496L602.496 384l274.752-274.752-90.496-90.496L512 293.504l-274.752-274.752-90.496 90.496L421.504 384 146.752 658.752l90.496 90.496z"  horiz-adv-x="1024" />
+
+    
+
+
+  </font>
+</defs></svg>
